@@ -1,7 +1,6 @@
 #include "../openal/AL/al.h"
 #include "../openal/AL/alc.h"
 
-
 #ifdef _MSC_VER
 #pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
 #endif
@@ -11,14 +10,12 @@
 #include <sstream>
 #include <vector>
 
-#include <fstream>     
+#include <fstream>
 #include <iterator>
 
 using namespace std;
 
-
-int main() {
-    
-    
+int main()
+{
     return 0;
 }
